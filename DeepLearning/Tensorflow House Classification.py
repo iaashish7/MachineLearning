@@ -68,3 +68,4 @@ sess.run(y, feed_dict={x: inputX })
 
 sess.run(tf.nn.softmax([1., 2.]))
 
+sess.close()
